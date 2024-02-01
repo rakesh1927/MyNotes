@@ -1,0 +1,28 @@
+method is A named block of code that performs a specific task and can be called multiple times.
+
+method syntax: ReturnType methodName() {
+//Body of the method
+//What do we want to do in the method?
+}
+
+return type of method: The data type of the value returned by a Java method
+
+void: A return type that indicates a method does not return a value
+
+method arguments: Inputs provided to a method during method call
+
+class: A blueprint for creating objects in Java
+
+object: An instance of a Java class that has an identity, behavior, and state.
+
+jvm: The runtime environment where Java bytecode is executed.
+
+jre: The Java Runtime Environment needed to run Java programs. JRE = JVM + Libraries + Other Components.
+
+jdk: The Java Development Kit needed to compile and run Java programs. JDK = JRE + Compilers + Debuggers.
+
+compiler: A program that converts Java source code into bytecode.
+
+ide: A software application that helps to develop Java code efficiently.
+
+debugging: The process of identifying and fixing errors or bugs in a Java program.

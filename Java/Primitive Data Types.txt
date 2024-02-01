@@ -1,0 +1,21 @@
+primitive datatypes are Basic data types that are built into Java.
+
+primitive variables are Variables that hold a single value of a primitive data type, such as an integer, float, or boolean.
+
+prmitive datatypes : boolean, char, byte, short, int, long, float, and double
+
+boolean: Logical value representing either true or false
+
+character: Single character representation
+
+byte: 8-bit integer representation
+
+short: 16-bit integer representation
+
+int: 32-bit integer representation
+
+long: 64-bit integer representation
+
+float: 32-bit IEEE 754 floating-point number representation
+
+double: 64-bit IEEE 754 floating-point number representation

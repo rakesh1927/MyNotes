@@ -1,0 +1,17 @@
+Programming means Creating instructions for a computer to perform a task.
+
+programming language is Written language that tells computers what to do.
+
+java is Object-oriented programming language that is class-based and high-level.
+
+jshell is a Tool for interactive code testing and evaluation.
+
+compiler Converts the source code into machine-code (understandable by computer).
+
+syntax are Rules that your program should follow!
+
+System.out is Standard output stream to display information in console.
+
+variable is a Memory location for storing a value.
+
+assignment means Giving a value to a variable (e.g. i = 1).
