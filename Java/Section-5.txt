@@ -1,0 +1,18 @@
+java code -> bytecode -> can be used on any OS (jvm helps with it)
+
+class is a template, with the help of which we can create multiple instances of objects.
+
+methods inside the class can be called with the help of objects of that class
+
+JVM(Java Virtual Machine) runs java bytecode.
+
+JRE(Java Runtime Environment) = JVM + Libraries + other components
+
+JDK(Java Development Kit) = JRE + Compilers + Debuggers
+
+JDK is needed to develop and run java programs, jre is needed to run java programs, all java programs run with the help of jvm.
+
+Application developer -> jdk
+Application user -> jre
+
+

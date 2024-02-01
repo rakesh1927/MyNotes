@@ -1,0 +1,7 @@
+tosca roles:
+tosca admin
+tosca archietect: admin,dev,integrate,setup,presales(all in one)
+tosca specialist -> developers
+tosca design specialist -> data + dev
+tosca engineering
+tosca consulting

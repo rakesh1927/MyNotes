@@ -1,0 +1,69 @@
+agile is a methodology
+agile is iterative
+agile is streamlined(short documents - move fast)
+agile is time-boxed
+agile is very collaborative
+
+cultural change, continuos improvement, agile is a journey
+
+agile manifesto:
+->Individuals and interactions over processes and tools
+->working software vs documentation
+->customer collaboration over contract negotiation
+->responding to change over following a plan
+
+
+12 agile principles:
+->satisfy customer & deliver value
+-> welcome and embrace change
+->deliver products frequently
+->collaborate daily
+->inspire & support motivated teams
+->promote open communication
+->working software is the primary measure of progress
+->plan for sustainable pace
+->promote technical excellence
+->maximize value through simplicity
+->encourage self organized teams
+
+
+
+
+SCRUM
+
+it refers to delivery methodology
+
+here we do several incremental releases called sprints
+potentially shippable product
+plan->build->test->review
+
+3 roles :
+->product owner
+->scrum master
+->team(dev+testers)
+
+3 artifacts:
+->product backlog(userstories)
+->sprint backlog
+->burndown chart
+
+3 ceremonies:
+->sprint planning
+->daily scrum
+->sprint review & retrospective
+
+
+a sprint burn-down chart shows remaining work to complete before iteration end.
+
+
+KANBAN
+Backlog->new->progress->testing->complete
+
+Scaled agile framework - SAF
+works on 3 levels : portfolio management, program, team
+
+XP - Xtreme Programming (lightweight methodolog)
+4 frameworks: planning, design,coding,testing
+
+The rate at which team delivers the tasks to be done in a single sprint is referred to as velocity
+

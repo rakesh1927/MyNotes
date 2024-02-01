@@ -1,0 +1,2 @@
+sendkeys takes only string
+when clicking images present under anchor, use jsclick

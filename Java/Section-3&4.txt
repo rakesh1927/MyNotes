@@ -1,0 +1,8 @@
+/methods => to display al the created methods
+/save nameOfFile.extension => to save the file in the current directory
+/edit nameofMethod => to edit a method
+/list nameofMethod => to list out the entire method
+
+
+//accept = parameter (method)
+//passing = argument (calling the method)

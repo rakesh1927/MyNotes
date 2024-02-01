@@ -1,0 +1,43 @@
+Structured programming is about methods/procedures
+
+OOP
+->thinking about objects
+->data(state)
+->actions(behaviour)
+
+2 main components in oop: state and behavior
+
+instance variables can only be referred from instances(objects)
+
+encapsulation is protecting object from other objects
+
+Encapsulation is needed to protect an object's state from direct access by other objects.
+
+principle :- other classes shouldn't be able to change the data of a specific class directly, it should be done through methods of that specific class.
+
+the initial value for int member variable is 0.
+The default value for object member variables, when they are not explicitly initialized, is null for reference types and 0 for numeric types (e.g., int, double, etc.).
+
+advantage of encapsulation is we can prevent bad code from other classes from putting bad data into our objects.
+
+
+abstraction means hiding the complexities i.e user need not to worry whats going on behind the scene, example: we write java program but we dont worry what is going on in jvm how it is converted to byte code and all stuffs.
+
+
+A constructor is a special method in Java that is called when an object of a class is created. It is used to initialize the data members of the object. Constructors do not have a return type.
+
+constructor is used to set initial state. It is called when an instance of the class is created.
+if we dont create any constructor, default constructor is created automatically.
+
+A constructor is invoked in Java by using the new keyword followed by the constructor name and parentheses, as part of the object creation process.
+
+default constructor is not initialised if we create our own constructor
+
+we can call another constructor from one constructor using this keyword.
+ex: this(5), it will be calling he constructor with int parameter.
+
+
+Math.sqrt -> returns double value
+
+
+

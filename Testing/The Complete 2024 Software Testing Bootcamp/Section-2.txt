@@ -1,0 +1,11 @@
+requirements engineer is the Link between the client and the IT team.
+product owner gets the requirements from the client, write product backlog and user stories in order to satisfy customer requirements.
+Requirements engineer can be called in some companies as a business analyst or product owner
+
+
+native application  is an application version that is developed only to work on a specific Operating System. For an example it works only on Android  and not on IOS.
+
+If there is a conflict between a developer and a tester on a defect and we need someone
+to help them in communicating in a better way, this is the: scrum master
+
+project manager Creates the project schedule. He is the one who decides how much time is allocated for software testing.
