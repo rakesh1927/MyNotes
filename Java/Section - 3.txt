@@ -1,0 +1,17 @@
+something within quotes => string literal
+java is a strongly typed language
+float and double are not precise, so not used in financials( instead big decimal)
+string concatenation is a very costly operation
+
+
+jshell - ctrl + r => search
+jshell - ctrl + a => start
+jshell - ctrl + e => end
+
+
+for(;i<=10;i++); => empty statement
+there can be nothing inside the loop parenthesis(infinite loop) or else there can be multiple declarations
+and multiple updation but, ocndition can only be 1. 
+
+
+literals, expressions, statements, variables, datatypes, operators, 
