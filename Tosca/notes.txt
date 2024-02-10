@@ -1,0 +1,23 @@
+tosca is a tool based on model based test technique, use scanning feature and capture the properties using the modules.
+
+not only webpages but also mobiles/desktop applications
+
+Tosca commander is the core backbone that is used to enable the test creation, execution, management, and analysis of test scripts efficiently.
+
+Tosca Executor that runs the test cases on the test object.
+
+Tosca Xscan is used to scan the screens, and their input fields and saves the information as modules
+
+Modules: maintaining the technical stuff of system under test (elements and element locators {object repository})
+
+Testcases: business logic and test data (managing input values)
+
+Execution: execute tests and see reports
+
+Requirements: manage business requrements, mapping testcases with requirements so it gives tracability.
+
+once we have created an user/groups in tosca, we cannot delete it.
+
+checkout -> working on a file
+
+checkin -> finished working

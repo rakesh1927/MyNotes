@@ -1,0 +1,69 @@
+any class we create is a reference type.
+
+Planet jupiter = new Planet(), here jupiter is a reference variable.
+int i = 5, here i is a primitive variable.
+
+objects are stored in heap, heap is global shared.
+primitive variables are stored in stack, each method has a separate stack.
+
+string is a special class in java, it is not a primitive type. it can directly be instantiated without using new keyword.
+
+.charAt(),.substring(x),
+.substring(x,y) => x is inclusive but y is not
+.length(),.indexOf(),.lastIndexOf(),.contains(),.startsWith(),.endsWith(),.isEmpty(),.equals(),.equalsIgnoreCase()
+
+String is immutable, whenever we modify a string another string is returned without affecting the original string.
+
+.toUpperCase(),.toLowerCase(),.trim(),.concat()
+
+=> 1 + 2 + "3" = "33"
+=> "1" + 2 + 3 = "123"
+
+.join() => it will append the first parameter passed into it in between the strings which it is provided with
+eg -> String.join(",", "A", "B") -> "A,B"
+
+.replace()
+
+StringBuffer is an additional class which is mutable, we can create strings with this also.
+this is provided because when we concat strings unnecessary instances get created which becomes costly.
+
+StringBuilder is similar to StringBuffer but in some cases StringBuffer becomes slow when working on single thread.
+
+StringBuffer is synchronized, i.e., thread-safe and therefore, it assures that no two threads will be able to access it simultaneously. On the other hand, StringBuilder is unsynchronized, i.e., not thread-safe. It means two or more threads can access it simultaneously.
+
+
+Wrapper classes wraps around a data type and gives it an object appearance.
+these are final and immutable.
+
+wrapper can be implemented in 2 ways:
+->Integer integer = new Integer(5)  //this creates new objects every time
+->Integer integer = Integer.valueOf(5) //if we create multiple with same value then it will reference instead of creating new variable.
+
+Autoboxing refers to the conversion of a primitive value into an object of the corresponding wrapper class is called autoboxing. For example, converting int to Integer class.
+autoboxing uses .valueOf()
+
+Unboxing on the other hand refers to converting an object of a wrapper type to its corresponding primitive value. For example conversion of Integer to int.
+
+
+JODA Api for Date in java was introduced in JAVA 8.
+LocalDate,LocalTime,LocalDateTime
+
+all these are immutable. all modification methods calls return new objects.
+
+isBefore & isAfter are present to compare dates.
+
+ctl + shift + t -> open one class
+ctrl + o -> list of methods in that class
+
+Reference variables in Java are used to store the memory location of an object, allowing access to the object's properties and methods.
+
+value of a reference variable if not initialised is null.
+
+if we compare 2 variables, It checks if the two variables are referring to the same object in memory.
+
+When assigning one reference variable to another in Java, only the reference (memory address) is copied, not the entire referenced object. Both variables will refer to the same object in memory.
+
+When you create a Wrapper object using valueOf(), the JVM will check if there is already a Wrapper object with the same value in memory. If there is, the valueOf() method will return that object. If there is no Wrapper object with the same value in memory, the valueOf() method will create a new object and return that object.
+
+
+

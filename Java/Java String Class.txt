@@ -1,0 +1,31 @@
+Reference variable: Stores memory address of an object
+
+String class: Represents a sequence of characters
+
++ operator is used to concatenate two strings
+
+charAt(index): Returns the character at specified index
+
+length(): Returns the length of the string
+
+substring(int startIndex, int endIndex): Returns a substring of a string, starting at startIndex and ending at the endIndex - 1
+
+toLowerCase(): Returns a new string with all the characters in lower case
+
+toUpperCase(): Returns a new string with all the characters in upper case
+
+trim(): Returns a new string with leading and trailing whitespace removed
+
+indexOf(String str): Returns the index of the first occurrence of the string, or -1 if the string is not found.
+
+contains(String str): Returns true if the string contains the specified string, false otherwise.
+
+replace(CharSeq oldStr, CharSeq newStr): Returns a new string with all occurrences of the specified string replaced by the new string.
+
+isEmpty(): Checks if a String is empty or not.
+
+endsWith(): Checks if a string ends with specified suffix
+
+startsWith(): Checks if a string starts with specified prefix
+
+StringBuffer: Mutable string used to manipulate strings with operations like append, delete and insert

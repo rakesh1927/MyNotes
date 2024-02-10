@@ -1,0 +1,54 @@
+types of repository :
+single
+multi user
+
+standar.tsu subset provides some basic modules for automation
+
+once workspace is created, tosca commander gets conected to repository containing tosca artifacts
+
+workspaces are the fundamental unit within which we will work to automate tests.
+
+sections help : plan, creat, execute
+
+there are 9 sections
+
+modules are folders that contain controls of SUT
+it comprises of technical information required to steer your sut.
+
+testcases section contains business information necessary to instruct tosca for sut
+
+execution section helps to execute test cases
+
+requirements section helps us to setup the requirements of sut.
+
+
+
+Best practices for creating worspace:
+->naming conventions in the entire project
+->name first and granular description later (WebShop | Header)
+->Repository structure: component folders - section folders
+component folder with -) templates and references -) relevant content for all projects (libraries and modules)
+one component folder for each project
+-requirements, testcasedesign,testcases,execution and modules folder
+->create artifacts based on 4 eyes principle
+-)inwork
+-)ready for approval
+-)completed/approved
+(these all should contain each folder for each tosca user)
+
+
+SUT: System Under Test (Demo Web Shop)
+
+When working in a single-user workspace, who can access this workspace?
+->The user who has access to the workspace's local file
+
+A Subset is a file containing Tosca artifacts that can be shared with other projects
+
+What are the advantages of Tricentis Model-Based Test Automation?
+->You can save effort because you can create models from scanning your System Under Test
+-> You can read an end-to-end test easily
+->You can reduce maintenance due to the models being reusable
+
+5 options to identify controls: properties,anchor,image,index,parent
+
+

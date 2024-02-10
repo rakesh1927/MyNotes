@@ -1,0 +1,9 @@
+in nested if-else, if one condition matches then other ones dont get executed.
+
+long,double,boolean is not accepted by switch statement.
+
+case canot have condition like "case num>5".
+
+ternary operator can return any datatype. (?:) {both side should be same datatype}
+
+if there is any return statement inside a case block, then no need to provide break.

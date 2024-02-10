@@ -1,0 +1,53 @@
+arrays allow us to store multiple data of same type.
+creation -> datatype[] variable = {data1,data2
+}
+-> datatype[] variable = new datatype[noOfData]
+
+an array can contain any no of values or no values.
+
+.length is a property for arrays, not an method.
+
+declaring an int array -> 0(initial value)
+declaring a double array -> 0.0(initial value)
+declaring a boolean array -> false(initial value)
+declaring a class array -> null(initial value)
+
+to check the content of array: Arrays.toString(arrayName)
+
+on declaration side we cant specify the size of array
+on definition side we should definitely specify the size of array
+
+if we want to fill the array with one particular value:
+Arrays.fill(arrayName,value)
+
+compare values of 2 arrays: Arrays.equals(array1, array2)
+
+inline means using the value of a variable directly in the code.
+
+by using variable arguments we can create one method which can take multiple parameters.
+
+eg- 
+
+int sum(int... values){
+	int sum = 0;
+for(int value:values){
+sum+=value;
+}
+return sum;
+}
+
+variable arguments should always be the last parameter.
+
+once the size is defined for array, it can't be changed.
+
+deleting and adding to array is bit difficult.
+
+
+to remove the above issue, java provides arraylist.
+ArrayList<datatype> list = new ArrayList<>()
+
+Arrays are used to store similar types of data in a structured and organized manner. This makes it easy to access and manipulate the data. For example, if you have an array of integers, you can easily find the sum of all the integers in the array. You can also easily sort the array in ascending or descending order.
+
+When creating an array of objects, the array holds references to the created objects.
+
+

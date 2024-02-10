@@ -1,0 +1,42 @@
+Byte,Short,Integer,Long => Wrapper Classes
+
+in long -> l
+in float -> f
+
+starting with 0 => octal
+starting with 0x => hexadecimal
+starting with \u => unicode
+
+
+valid didgits in octal -> 0 to 7
+valid didgits in hexadecimal -> 0 to 9, A to F
+
+The default type for floating-point literals in Java is double, which provides higher precision compared to the float type.
+
+when bigger into smaller one -> explicit casting
+opposite is implicit
+
+when we need accurate results, instead of float and double we should use BigDecimal.
+
+BigDecimal is nota primitive datatype it is a class.
+
+BigDecimal number are immutable i.e their value cannot be changed once they are created.
+
+we can create this by -> BigDecimal number1 = new BigDecimal(""); //pass string
+The best way to construct a BigDecimal object to achieve high precision is by using string literals, as it avoids any potential rounding or precision issues that can occur with floating-point (double or float) literals.
+
+we can do arithmetic operations in BigDecimals with bigdecimals only, if we want to add integers or other datatypes then we have to convert them first to big decimal by using:
+new BigDecimal()
+
+java.lang is defaultly imported.
+
+result of relational -> boolean
+
+&& -> both true : true (AND)
+|| -> anyone true : true (OR)
+^ -> both operands should be opposite : true else false like false ^ true is true but true ^ true is false (XOR)
+! -> reverse
+
+&& and || are shortcircuit operators i.e if first operand becomes false then they dont go for second one.
+
+

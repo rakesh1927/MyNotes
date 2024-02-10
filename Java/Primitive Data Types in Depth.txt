@@ -1,0 +1,15 @@
+Typecasting: Process of converting one data type into another
+
+lossy conversion: Conversion that results in loss of information
+
+explicit cast: A type conversion that is explicitly declared by the programmer.
+
+big decimal: Java class for precise arithmetic operations on very large or very small numbers
+
+|| : Logical operator used for OR operations
+
+&&: Logical operator that performs AND operation
+
+NOT operator: Represented by the exclamation mark (!) and is used to negate a boolean value
+
+char: Data type that represents a single character

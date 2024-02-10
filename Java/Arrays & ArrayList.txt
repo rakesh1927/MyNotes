@@ -1,0 +1,27 @@
+Array: A collection of similar elements stored in contiguous memory locations
+
+Declaring an array: int arr[] = new int[5];
+
+Declaring and Initializing an array: int arr2[] = { 25, 30, 50, 10, 5 };
+
+array length method: Returns the number of elements in an array in Java.
+
+Print Array Element: System.out.println( marks[0]);
+
+Arrays.toString (arr): Returns a string representation of the contents of an array.
+
+ArrayIndexOutOfBounds Exception: An error that occurs when an invalid index is used to access an array element
+
+Arrays.fill(marks, 100): Assigns a value of 100 to all elements of the marks array.
+
+Arrays.equals(arr1, arr2): Compares if two arrays have the same elements in the same order.
+
+Arrays.sort(marks): Sorts an array in ascending order.
+
+ArrayList: Resizable array implementation, that allows insertion and deletion operations.
+
+arrayList. add("XYZ"): Adds an element to the end of an ArrayList in Java.
+
+arrayList. remove("XYZ"): Removes the first occurrence of the element "XYZ" from the ArrayList.
+
+Array vs ArrayList: An array has a fixed size while an ArrayList has a dynamic size.

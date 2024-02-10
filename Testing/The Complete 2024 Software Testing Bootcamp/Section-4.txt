@@ -1,0 +1,43 @@
+software testing is a way to assess the quality of software,
+reduce the of software failure in operation.
+
+software testing is a process, test execution is a part of it.
+
+2 types: dynamic(processing) and static(no processing)
+
+verification: It includes checking documents, design, codes and programs.(static)
+-> are we building the product right?
+
+validation: It includes testing and validating the actual product.(dynamic)
+-> are we building the right product?
+
+We have a requirement and we have to ensure that our application applies what is written in the requirements - verification
+
+objectives of testing: preventing defects, finding defects, requirements fulfillment, reduce risk
+
+in order to prevent defects i need to make the defect does not happen from the first place, so by reviewing the requirements, reviewing the design - so when the designs, code are written in better format are following standards, it will prevent defects in application.
+
+debugging is not a testing activity, it is done by developer.
+it is about removing the cause of defect/failure.
+
+after debugging - confirmation testing/retesting
+
+test process
+plan - design - execution
+
+7 test process activities:-
+planning - monitoring&control - analysis(scenario) - design(testcases) - implementation - execution - completion
+
+test levels: groups of test activities that are organized and managed together.
+unit, integration(component and system), system(end to end), acceptance(alpha{inside company} and beta{users})
+
+component integration is often the responsibility of developers.
+system integration is responsible for testers
+
+types of testing:
+-> functional testing(testing what system does){yes/no}
+-> non functional (testing how system performs{measured in range}
+-> black-box (testing without knowing the internal structure of system)
+-> white box (testing while monitoring the internal structure of system)
+-> regression (testing unchanged areas to ensure they are not afected by changes)
+-> smoke (testing main functionalities to ensure the build is stable enough to continue testing) {build-verification testing}

@@ -1,0 +1,70 @@
+CI -> Continuos Integration
+CD -> Continuos Deployment/Delivery
+
+
+ci is a process where team members integrate their work continuously in a shared repository.
+best achieved using some scm tools like GIT
+can be daily or as needed
+every integration or checkin in the repo is validated by automated build, automated unit or integration tests.
+
+continuous delivery: after the ci process, deploying on a prod like env and running automation tests to ensure the build is ready for release.
+ensures the build is always in a deployable state.
+dev env -> test env -> staging -> prod
+
+
+stages: build -> test -> deploy  -> release
+env: 	dev   -> QA   -> staging -> prod
+
+ci: ------------>
+cd(delivery): ------------------>
+cd(deployment): ---------------------------->
+
+
+
+
+pipeline:
+-----ci-------------cd----------------cd-------
+build -> integrate -> test -> deploy -> release
+when we do all these things automatically by script, its known as pipeline.
+
+
+
+
+
+disadvantages of waterfall model: 
+-> any new requirements from client will restart the dev cycle
+-> if client is unhappy, the entire cycle is restarted
+-> untill the requirements are not clear, project cannot start and is eventually delayed
+->it becomes expensive to make changes during project
+
+
+agile model:
+
+programmers create protottypes to understand client requirements -> client provides feedback
+
+the entire process is broken down into small actionable blocks called sprints
+plan->code->test->review
+
+workkflow:
+prod backlog -> sprint planning -> sprint backlog -> sprint <-> daily scrum -> delivarable prod -> prod review
+
+devops is an evolution from agile model of soft development.
+it addessed the gap between developers and operations team.
+
+plan -> code -> build -> testing ->(integrate) app server -> (deploy) production servers -> operate -> monitoring
+
+overview of ci: develop and compile, perform unit test, integrate with db, perform production deployment, perform functional tests and code labelling, generate reports
+
+developers needs to make sure he/she writes unit tests to exercise each of the code written.
+
+all unit tests should pass, it will not be merged to the branch.
+
+continuous deployment is an extension of continuos integration. it aims to reduce the time the dev team takes between writing one new line of code and using it in production.
+
+cd ensures the right is in the right place in the right time.
+
+tools in ci and cd: jenkins, travis ci, bamboo, gitlab
+
+jenkins is a java-based open source automation tool. it functions as a server and is a soft dev and cross-platform tool used for ci and cd.
+
+

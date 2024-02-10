@@ -1,0 +1,8 @@
+azure devops
+tools - eclipse,maven build tools,
+
+no design changes has to be there
+
+status,tosca tool
+
+on command connection

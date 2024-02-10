@@ -1,0 +1,29 @@
+for loop has 3 parts:
+initialization,condition,operation
+all 3 are not mandatory
+
+if is executed only once whereas while is executed multiple times.
+
+if we dont increment value in while loop, then it becomes infinite loop.
+
+do-while, code inside it will executed atleast once.
+
+if you know:
+how many times to run -> for
+when to end loop -> while
+execute atleast once -> do while
+
+
+//lcm problem
+-> max of both numbers
+-> check if both are divisble by max
+-> if both divisible then max is lcm
+-> if not check with next multiple of max
+
+//gcd problem
+-> min of both numbers
+-> start with min
+-> check if both are divisble by min
+-> if both divisible then min is gcd
+-> if not check with next decrement of gcd
+

@@ -1,0 +1,7 @@
+->Requirement analysis
+->Test planning (which features to be testted in the particular sprint)
+->Test case design & dev
+->Test env setup
+->Test execution
+->Test reporting
+->Test closure

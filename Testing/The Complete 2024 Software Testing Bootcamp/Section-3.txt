@@ -1,0 +1,41 @@
+sequential dev -> goes in sequence and we dont go back
+=> analysis - design - implementation - testing
+
+waterfall model is appropriate when requirements are already known.
+its simple and appropriate for small teams.
+
+v-model
+unit&integration - developer
+system - tester
+acceptance - tester or users
+
+srs is a formal document that details the client’s requirements (written, verbal).
+
+brs is a Non-technical expression is used to describe the requirements of the client.
+
+The high-level requirements that talks about what are we developing: BRD
+
+The BRD cares about the client himself or the end customer. The SRS cares about the development team.
+
+------------
+
+agile - no feedback at end, feedback is continuous.
+4 values 12 principles.
+
+iterative: Repetitive cycles with continuous refinement.
+incremental: Delivering the software in functional parts
+
+agile is a way of thinking/philosophy
+
+scrum is an approach to apply agile
+
+Sprint Backlog iterations is between: 1-4 weeks
+
+
+In Sequential development we have three main factors: fixed requirements, estimated effort and estimated time.
+
+
+In agile software development we have three main factors: fixed effort and time but estimated requirements
+
+in agile, we dont spend a lot amount of money at beginning
+

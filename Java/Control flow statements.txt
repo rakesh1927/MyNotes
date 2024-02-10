@@ -1,0 +1,13 @@
+control flow statement: Statements that control how a program runs.
+
+if-else: A statement that runs different code depending on a condition.
+
+Switch statement: A statement that lets you choose between multiple cases of code.
+
+scanner: A Java class for getting user input from the console
+
+default clause: Code that runs if no switch cases match.
+
+break: A statement that exits out of a loop or switch statement
+
+ternary: A shorthand if statement that assigns a value based on a condition.

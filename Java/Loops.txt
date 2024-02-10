@@ -1,0 +1,11 @@
+loop statements: Loop Statements help you to repeat code execution.
+
+types of loops: Different types of loops include for, while, and do-while loops.
+
+for loop: Used to iterate a specific number of times
+
+while: Repeatedly execute a block of code while a condition is true.
+
+do-while: Executes the code block once before checking the condition.
+
+continue: Used to skip over one iteration of a loop
