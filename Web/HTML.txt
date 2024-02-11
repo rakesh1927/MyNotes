@@ -1,0 +1,8 @@
+to group radio buttons, both should havae same value in mae attribute.
+
+label for and input id attribute should be same
+
+when form is submitted, the valu inside value attribute gets submitted.
+
+You tell the browser this information by adding the <!DOCTYPE ...> tag on the first line, where the ... part is the version of HTML. For HTML5, you use <!DOCTYPE html>
+
