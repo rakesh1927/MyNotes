@@ -1,0 +1,12 @@
+think from perspective of user
+
+think outside in
+
+
+inheritance is "IS A" kind relationship.
+
+example if student extends person than student IS A person.
+
+every class that doesn't extend anything extends object class.
+
+Object class is the root of the class hierarchy.

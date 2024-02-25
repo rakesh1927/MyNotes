@@ -21,3 +21,22 @@ once we have created an user/groups in tosca, we cannot delete it.
 checkout -> working on a file
 
 checkin -> finished working
+
+data types in tosca:
+string,date,numeric,boolean,password
+
+You can use a TCP to add values for identifiers of various test environments.
+
+planned/in_work/completed
+
+How often can you use a TestCase in the same ExecutionList? - once
+
+the final weight of a Requirement is calculated using an exponential function that takes into consideration frequency class and damage class.
+
+To which level in the Requirement structure are TestCases linked?  - requirement
+
+In which section of Tosca are libraries used? - testcase
+
+What is the correct syntax for using a Test Configuration Parameter in a TestStep? -  {CP[NameOfTheTCP]}
+
+What is the correct expression, if you want Tosca to enter a date that is: the last day of the month, 3 years ago from the testing date, with 4 digits for years and 3 words abbreviation for month? - {MONTHLAST[][-3y][MMMyyyy]}
