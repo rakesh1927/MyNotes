@@ -1,0 +1,40 @@
+Day-2
+-----
+SDLC  - Software Developement Life Cycle
+
+SDLC Models
+
+Waterfall
+Spiral
+Incremental
+Ptototype
+etc...
+
+
+waterfall model only 1 cycle
+spiral model n no of cycles are there
+
+V Model
+Agile
+
+
+P - People
+P - Process
+P - Product
+
+
+V Model
+--------
+
+Verification Vs Validation
+		Verification:  Reviews, walkthoughs, inspections (techniques of static testing)
+		Validation  :  unit testing, integration testing, sysem testing, UAT
+
+Static Vs Dynamc Testing
+
+verification is an example for static testing (done on documents)
+validation is an example for dynamic testing (done on actual software)
+
+build is final integrated product.
+
+
