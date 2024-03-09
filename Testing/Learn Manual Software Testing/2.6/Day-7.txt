@@ -1,0 +1,12 @@
+Day-7
+-------
+Software Test design techniques
+--------------
+1. Equivalence Class Partitioning (ECP)
+2. Boundary Value Analysis (BVA)
+3. Decision Table based testing.
+4. State Transition
+5. Error Guessing
+
+https://www.pavantestingtools.com/2024/01/software-test-design-techniques.html
+

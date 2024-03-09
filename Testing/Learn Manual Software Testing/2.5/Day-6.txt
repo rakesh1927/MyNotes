@@ -1,0 +1,20 @@
+Day-6
+--------
+Testing termonology
+---------
+Regression Testing Vs Re-testing
+Smoke Testing Vs Sanity Testing
+
+Smoke testing-- BVT ( Stability of the build)
+Sanity testing - Basic Functionality testing 
+
+Both are entry level testing..
+
+
+Exploratory testing Vs Adhoc Testing Vs Monkey Testing
+
+
+Positive Vs Nagitive testing
+
+
+
