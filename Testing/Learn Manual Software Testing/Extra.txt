@@ -1,0 +1,13 @@
+if any extra feature is there in an application which is not provided in srs, it should be considered as a bug.(sanitation/garbage testing)
+
+
+smoke testing focuses on the stability of the build
+eg: if we buy a phone first we check whether phone is switching on/off or not, network is there or not.(build verification test)
+
+sanity testing focuses on the basic functionalities of the application
+
+bugs found at any of this stage - sanity and smoke are high priority bugs.
+
+release notes contains installation instructions, how to deploy, bug fixes and updates.
+
+anytime we get a bug we dont directly report it to the developer, we cross check it 2-3 times then we checek if there is any environmental issue, if everything is correct from our end then we will report it to dev.
